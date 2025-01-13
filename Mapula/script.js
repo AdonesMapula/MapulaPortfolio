@@ -6,9 +6,9 @@ const projectDetails = {
 
 document.querySelectorAll('.project-btn').forEach(button => {
     button.addEventListener('click', () => {
-        const projectId = button.getAttribute('data-project'); // Get project ID from button
+        const projectId = button.getAttribute('data-project'); 
         const descriptionElement = document.getElementById('project-description');
-        descriptionElement.textContent = projectDetails[projectId]; // Set the project description
+        descriptionElement.textContent = projectDetails[projectId]; 
     });
 });
 
@@ -28,7 +28,6 @@ function viewProjectDetails(projectId) {
         }
     };
 
-    // Get the project details div and populate it with data
     const projectDetails = document.getElementById("project-details");
     const projectImage = document.getElementById("project-image");
     const projectDescription = document.getElementById("project-description");
@@ -37,7 +36,6 @@ function viewProjectDetails(projectId) {
     projectImage.src = selectedProject.image;
     projectDescription.textContent = selectedProject.description;
 
-    // Show the project details section
     projectDetails.style.display = "block";
 }
 

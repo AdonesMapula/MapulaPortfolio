@@ -111,7 +111,6 @@ form button:hover {
     color: #ffffff;
 }
 
-/* Header */
 .header {
     position: fixed;
     top: 0;
@@ -147,7 +146,6 @@ form button:hover {
     color: aqua;
 }
 
-/* Home Section */
 .home {
     height: 100vh;
     background: url('home.jpg') no-repeat;
@@ -205,8 +203,6 @@ form button:hover {
     background: transparent;
     color: aqua;
 }
-
-/* Projects Section */
 
 #projects ul {
     list-style: none;
@@ -297,7 +293,7 @@ form button:hover {
     padding: 20px;
     border-radius: 10px;
 }
-/* Footer */
+
 footer {
     text-align: center;
     padding: 20px 10%;
