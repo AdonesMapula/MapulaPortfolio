@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adones Mapula Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Adones Mapula</a>
+        <nav class="navbar">
+            <a href="#skills">Mastery</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Adones Mapula</h1>
+            <h3>BSIT Student of SWU PHINMA</h3>
+            <p>
+                I'm an IT student who enjoys coding, especially with HTML and Java. I enjoy tackling challenges and finding creative solutions, and I'm always looking to improve my skills. When I'm not coding, you’ll probably find me playing football/soccer. I’m a hard worker and driven to turn my passion for IT into a professional career.
+                <br><br> Contact me through:
+            </p>
+            <div class="btn-box">
+                <a href="https://www.linkedin.com/in/adones-mapula-247177248/">LinkedIn</a>
+                <a href="https://github.com/AdonesMapula">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+	<center>
+		<section id="skills">
+			<h2>Programming Language Mastery</h2>
+			<ul id="skills-list">
+				<li>
+					<span>HTML</span>
+					<div class="bar-container">
+						<div class="bar" style="width: 75%"></div>
+						<span class="percent">75%</span>
+					</div>
+				</li>
+				<li>
+					<span>CSS</span>
+					<div class="bar-container">
+						<div class="bar" style="width: 60%"></div>
+						<span class="percent">60%</span>
+					</div>
+				</li>
+				<li>
+					<span>JavaScript</span>
+					<div class="bar-container">
+						<div class="bar" style="width: 55%"></div>
+						<span class="percent">55%</span>
+					</div>
+				</li>
+				<li>
+					<span>Java</span>
+					<div class="bar-container">
+						<div class="bar" style="width: 75%"></div>
+						<span class="percent">75%</span>
+					</div>
+				</li>
+				<li>
+					<span>Python</span>
+					<div class="bar-container">
+						<div class="bar" style="width: 65%"></div>
+						<span class="percent">65%</span>
+					</div>
+				</li>
+			</ul>
+		</section>
+	</center>
+	
+	
+
+    <section id="projects">
+		<h2>Projects</h2>
+		<div class="gallery-container">
+			<div class="thumbnails">
+				<img src="project2.png" alt="Project 1" class="project-img" onclick="viewProjectDetails(1)">
+				<img src="project3.png" alt="Project 2" class="project-img" onclick="viewProjectDetails(2)">
+				<img src="project1.png" alt="Project 3" class="project-img" onclick="viewProjectDetails(3)">
+			</div>
+	
+			<div id="project-details" class="details-section">
+				<img id="project-image" src="" alt="Project Image" class="enlarged-img">
+				<p id="project-description">Click on a project to view details.</p>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Enter your message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
